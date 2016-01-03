@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "579437A31C38790E00119137"
-               BuildableName = "Tatami.app"
-               BlueprintName = "Tatami"
-               ReferencedContainer = "container:Tatami.xcodeproj">
+               BuildableName = "Domestic Void.app"
+               BlueprintName = "Domestic Void"
+               ReferencedContainer = "container:Domestic Void.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "579437A31C38790E00119137"
-            BuildableName = "Tatami.app"
-            BlueprintName = "Tatami"
-            ReferencedContainer = "container:Tatami.xcodeproj">
+            BuildableName = "Domestic Void.app"
+            BlueprintName = "Domestic Void"
+            ReferencedContainer = "container:Domestic Void.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "579437A31C38790E00119137"
-            BuildableName = "Tatami.app"
-            BlueprintName = "Tatami"
-            ReferencedContainer = "container:Tatami.xcodeproj">
+            BuildableName = "Domestic Void.app"
+            BlueprintName = "Domestic Void"
+            ReferencedContainer = "container:Domestic Void.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "579437A31C38790E00119137"
-            BuildableName = "Tatami.app"
-            BlueprintName = "Tatami"
-            ReferencedContainer = "container:Tatami.xcodeproj">
+            BuildableName = "Domestic Void.app"
+            BlueprintName = "Domestic Void"
+            ReferencedContainer = "container:Domestic Void.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

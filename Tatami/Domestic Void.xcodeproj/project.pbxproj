@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		579437A41C38790E00119137 /* Tatami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tatami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579437A41C38790E00119137 /* Domestic Void.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domestic Void.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		579437A71C38790E00119137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579437A91C38790E00119137 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		579437AB1C38790E00119137 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		579437A51C38790E00119137 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				579437A41C38790E00119137 /* Tatami.app */,
+				579437A41C38790E00119137 /* Domestic Void.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		579437A31C38790E00119137 /* Tatami */ = {
+		579437A31C38790E00119137 /* Domestic Void */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Tatami" */;
+			buildConfigurationList = 579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Domestic Void" */;
 			buildPhases = (
 				579437A01C38790E00119137 /* Sources */,
 				579437A11C38790E00119137 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Tatami;
+			name = "Domestic Void";
 			productName = Tatami;
-			productReference = 579437A41C38790E00119137 /* Tatami.app */;
+			productReference = 579437A41C38790E00119137 /* Domestic Void.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5794379F1C38790E00119137 /* Build configuration list for PBXProject "Tatami" */;
+			buildConfigurationList = 5794379F1C38790E00119137 /* Build configuration list for PBXProject "Domestic Void" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				579437A31C38790E00119137 /* Tatami */,
+				579437A31C38790E00119137 /* Domestic Void */,
 			);
 		};
 /* End PBXProject section */
@@ -249,7 +249,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tatami/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.Tatami;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.DomesticVoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,7 +261,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tatami/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.Tatami;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.DomesticVoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -269,7 +269,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5794379F1C38790E00119137 /* Build configuration list for PBXProject "Tatami" */ = {
+		5794379F1C38790E00119137 /* Build configuration list for PBXProject "Domestic Void" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579437B31C38790E00119137 /* Debug */,
@@ -278,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Tatami" */ = {
+		579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Domestic Void" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579437B61C38790E00119137 /* Debug */,
