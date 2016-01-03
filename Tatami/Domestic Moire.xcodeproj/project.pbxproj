@@ -23,7 +23,7 @@
 		5728F6951C38D37400A45685 /* icon.256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.256.png; sourceTree = "<group>"; };
 		5728F6961C38D37400A45685 /* icon.512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.512.png; sourceTree = "<group>"; };
 		5728F6971C38D37400A45685 /* icon.1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.1024.png; sourceTree = "<group>"; };
-		579437A41C38790E00119137 /* Domestic Void.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domestic Void.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579437A41C38790E00119137 /* Domestic Moire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domestic Moire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		579437A71C38790E00119137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579437A91C38790E00119137 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		579437AB1C38790E00119137 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		579437A51C38790E00119137 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				579437A41C38790E00119137 /* Domestic Void.app */,
+				579437A41C38790E00119137 /* Domestic Moire.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		579437A31C38790E00119137 /* Domestic Void */ = {
+		579437A31C38790E00119137 /* Domestic Moire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Domestic Void" */;
+			buildConfigurationList = 579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Domestic Moire" */;
 			buildPhases = (
 				579437A01C38790E00119137 /* Sources */,
 				579437A11C38790E00119137 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "Domestic Void";
+			name = "Domestic Moire";
 			productName = Tatami;
-			productReference = 579437A41C38790E00119137 /* Domestic Void.app */;
+			productReference = 579437A41C38790E00119137 /* Domestic Moire.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5794379F1C38790E00119137 /* Build configuration list for PBXProject "Domestic Void" */;
+			buildConfigurationList = 5794379F1C38790E00119137 /* Build configuration list for PBXProject "Domestic Moire" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				579437A31C38790E00119137 /* Domestic Void */,
+				579437A31C38790E00119137 /* Domestic Moire */,
 			);
 		};
 /* End PBXProject section */
@@ -261,8 +261,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tatami/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.DomesticVoid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.DomesticMoire;
+				PRODUCT_NAME = "Domestic Moire";
 			};
 			name = Debug;
 		};
@@ -273,15 +273,15 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tatami/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.DomesticVoid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.DomesticMoire;
+				PRODUCT_NAME = "Domestic Moire";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5794379F1C38790E00119137 /* Build configuration list for PBXProject "Domestic Void" */ = {
+		5794379F1C38790E00119137 /* Build configuration list for PBXProject "Domestic Moire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579437B31C38790E00119137 /* Debug */,
@@ -290,7 +290,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Domestic Void" */ = {
+		579437B51C38790E00119137 /* Build configuration list for PBXNativeTarget "Domestic Moire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579437B61C38790E00119137 /* Debug */,
