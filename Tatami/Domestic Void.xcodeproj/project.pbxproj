@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5728F6981C38D37400A45685 /* icon.256.png in Resources */ = {isa = PBXBuildFile; fileRef = 5728F6951C38D37400A45685 /* icon.256.png */; };
+		5728F6991C38D37400A45685 /* icon.512.png in Resources */ = {isa = PBXBuildFile; fileRef = 5728F6961C38D37400A45685 /* icon.512.png */; };
+		5728F69A1C38D37400A45685 /* icon.1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5728F6971C38D37400A45685 /* icon.1024.png */; };
 		579437A81C38790E00119137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579437A71C38790E00119137 /* AppDelegate.swift */; };
 		579437AA1C38790E00119137 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579437A91C38790E00119137 /* GameScene.swift */; };
 		579437AC1C38790E00119137 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 579437AB1C38790E00119137 /* GameScene.sks */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5728F6951C38D37400A45685 /* icon.256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.256.png; sourceTree = "<group>"; };
+		5728F6961C38D37400A45685 /* icon.512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.512.png; sourceTree = "<group>"; };
+		5728F6971C38D37400A45685 /* icon.1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.1024.png; sourceTree = "<group>"; };
 		579437A41C38790E00119137 /* Domestic Void.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domestic Void.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		579437A71C38790E00119137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579437A91C38790E00119137 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 		579437A61C38790E00119137 /* Tatami */ = {
 			isa = PBXGroup;
 			children = (
+				5728F6951C38D37400A45685 /* icon.256.png */,
+				5728F6961C38D37400A45685 /* icon.512.png */,
+				5728F6971C38D37400A45685 /* icon.1024.png */,
 				57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */,
 				579437A71C38790E00119137 /* AppDelegate.swift */,
 				579437A91C38790E00119137 /* GameScene.swift */,
@@ -129,9 +138,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A593551C38CC2300DA28E3 /* logo.xxiivv.white.png in Resources */,
+				5728F69A1C38D37400A45685 /* icon.1024.png in Resources */,
 				579437AE1C38790E00119137 /* Assets.xcassets in Resources */,
+				5728F6991C38D37400A45685 /* icon.512.png in Resources */,
 				579437AC1C38790E00119137 /* GameScene.sks in Resources */,
 				579437B11C38790E00119137 /* MainMenu.xib in Resources */,
+				5728F6981C38D37400A45685 /* icon.256.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
