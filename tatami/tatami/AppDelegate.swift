@@ -18,15 +18,14 @@ class AppDelegate: NSObject, NSApplicationDelegate
     func applicationDidFinishLaunching(aNotification: NSNotification)
 	{
 		game = GameScene(fileNamed:"GameScene")
-		game.scaleMode = .AspectFill
+		game.scaleMode = .AspectFit
 		game.backgroundColor = SKColor.blackColor()
 		self.skView!.presentScene(game)
 		self.skView!.ignoresSiblingOrder = true
-		self.skView!.showsFPS = true
-		self.skView!.showsNodeCount = true
-		
+		self.skView!.showsFPS = false
+		self.skView!.showsNodeCount = false
     }
-    
+	
     func applicationShouldTerminateAfterLastWindowClosed(sender: NSApplication) -> Bool
 	{
         return true

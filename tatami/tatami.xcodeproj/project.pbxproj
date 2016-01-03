@@ -13,6 +13,7 @@
 		579437AE1C38790E00119137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579437AD1C38790E00119137 /* Assets.xcassets */; };
 		579437B11C38790E00119137 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579437AF1C38790E00119137 /* MainMenu.xib */; };
 		579437B91C387DBD00119137 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579437B81C387DBD00119137 /* Tile.swift */; };
+		57A593551C38CC2300DA28E3 /* logo.xxiivv.white.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		579437B01C38790E00119137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		579437B21C38790E00119137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579437B81C387DBD00119137 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.xxiivv.white.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		579437A61C38790E00119137 /* Tatami */ = {
 			isa = PBXGroup;
 			children = (
+				57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */,
 				579437A71C38790E00119137 /* AppDelegate.swift */,
 				579437A91C38790E00119137 /* GameScene.swift */,
 				579437B81C387DBD00119137 /* Tile.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A593551C38CC2300DA28E3 /* logo.xxiivv.white.png in Resources */,
 				579437AE1C38790E00119137 /* Assets.xcassets in Resources */,
 				579437AC1C38790E00119137 /* GameScene.sks in Resources */,
 				579437B11C38790E00119137 /* MainMenu.xib in Resources */,
@@ -281,6 +285,7 @@
 				579437B71C38790E00119137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

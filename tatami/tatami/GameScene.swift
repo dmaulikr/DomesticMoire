@@ -6,18 +6,22 @@ import SpriteKit
 
 class GameScene: SKScene
 {
+	let container = SKNode()
+	
     override func didMoveToView(view: SKView)
 	{
+		addChild(container)
+		
 		var count = 1
 		while count < rings {
-			addChild(Tile(index:count))
+			container.addChild(Tile(index:count))
 			count += 1
 		}
     }
 	
     override func update(currentTime: CFTimeInterval)
 	{
-		for tile in self.children {
+		for tile in container.children {
 			let tile = tile as! Tile
 			tile.animate()
 		}
