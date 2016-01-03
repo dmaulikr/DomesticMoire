@@ -28,14 +28,20 @@ class Tile: SKNode
 	
 	func animate()
 	{
+		let slow = sin(time * 0.0001)
+		let medium = sin(time * 0.001)
+		let fast = sin(time * ratio * (medium/10))/ratio * 20 * ratio * slow
 		
 		let wobble = ((sin(time * 0.01) * CGFloat(rings) ) + CGFloat(rings)) * 0.1
 		
 		sprite.position = CGPoint(x: 0, y: (10 * ratio) + (10 * wobble * ratio))
 		
-		zRotation = time * 0.025 + ratio * (wobble/2)
+		zRotation = time * 0.025 + ratio * (wobble/2) + (slow * ratio) * (slow * wobble/medium)
 		sprite.xScale = 1 + (wobble * ratio * 0.1)
 		sprite.yScale = 1 + (wobble * ratio * 0.2 * ratio * wobble * 0.25)
+		
+		sprite.xScale += fast * 0.01 * ratio
+		sprite.yScale += fast * 0.01 * ratio
 		
 		time += 1
 	}
