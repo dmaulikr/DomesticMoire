@@ -43,6 +43,8 @@ class Tile: SKNode
 		sprite.xScale += fast * 0.01 * ratio
 		sprite.yScale += fast * 0.01 * ratio
 		
+		sprite.zRotation = ( wobble * ratio * medium * wobble ) / ratio
+		
 		time += 1
 	}
 

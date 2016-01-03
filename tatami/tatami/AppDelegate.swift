@@ -18,19 +18,13 @@ class AppDelegate: NSObject, NSApplicationDelegate
     func applicationDidFinishLaunching(aNotification: NSNotification)
 	{
 		game = GameScene(fileNamed:"GameScene")
+		game.scaleMode = .AspectFill
+		game.backgroundColor = SKColor.blackColor()
+		self.skView!.presentScene(game)
+		self.skView!.ignoresSiblingOrder = true
+		self.skView!.showsFPS = true
+		self.skView!.showsNodeCount = true
 		
-            /* Set the scale mode to scale to fit the window */
-            game.scaleMode = .AspectFill
-			game.backgroundColor = SKColor.blackColor()
-            
-            self.skView!.presentScene(game)
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-//            self.skView!.ignoresSiblingOrder = true
-			
-            self.skView!.showsFPS = true
-            self.skView!.showsNodeCount = true
-			
     }
     
     func applicationShouldTerminateAfterLastWindowClosed(sender: NSApplication) -> Bool

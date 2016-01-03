@@ -15,18 +15,11 @@ class GameScene: SKScene
 		}
     }
 	
-	var time:Double = 0
-	
     override func update(currentTime: CFTimeInterval)
 	{
 		for tile in self.children {
 			let tile = tile as! Tile
 			tile.animate()
 		}
-		
-		time += 1
-		
-		
-		
     }
 }
