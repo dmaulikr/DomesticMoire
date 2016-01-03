@@ -10,6 +10,7 @@ class Tile: SKNode
 	var sprite:SKShapeNode!
 	var time:CGFloat = 0
 	var index:Int = 0
+	var ratio:CGFloat = 0
 	
 	init( index:Int)
 	{
@@ -21,12 +22,12 @@ class Tile: SKNode
 		sprite.fillColor = index % 2 == 0 ? NSColor.whiteColor() : NSColor.blackColor()
 		sprite.strokeColor = NSColor.clearColor()
 		addChild(sprite)
+		
+		ratio = CGFloat(index)/CGFloat(rings)
 	}
 	
 	func animate()
 	{
-		time += 1
-		let ratio = CGFloat(index)/CGFloat(rings)
 		
 		let wobble = ((sin(time * 0.01) * CGFloat(rings) ) + CGFloat(rings)) * 0.1
 		
@@ -35,6 +36,8 @@ class Tile: SKNode
 		zRotation = time * 0.025 + ratio * (wobble/2)
 		sprite.xScale = 1 + (wobble * ratio * 0.1)
 		sprite.yScale = 1 + (wobble * ratio * 0.2 * ratio * wobble * 0.25)
+		
+		time += 1
 	}
 
 	required init?(coder aDecoder: NSCoder)
