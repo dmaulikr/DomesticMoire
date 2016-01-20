@@ -17,6 +17,8 @@
 		579437B11C38790E00119137 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579437AF1C38790E00119137 /* MainMenu.xib */; };
 		579437B91C387DBD00119137 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579437B81C387DBD00119137 /* Tile.swift */; };
 		57A593551C38CC2300DA28E3 /* logo.xxiivv.white.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */; };
+		57B4B65E1C4F470F00D3A226 /* DomesticView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B4B65D1C4F470F00D3A226 /* DomesticView.h */; };
+		57B4B6601C4F470F00D3A226 /* DomesticView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B4B65F1C4F470F00D3A226 /* DomesticView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +34,21 @@
 		579437B21C38790E00119137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579437B81C387DBD00119137 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.xxiivv.white.png; sourceTree = "<group>"; };
+		57B4B65B1C4F470F00D3A226 /* Domestic.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Domestic.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B4B65D1C4F470F00D3A226 /* DomesticView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DomesticView.h; sourceTree = "<group>"; };
+		57B4B65F1C4F470F00D3A226 /* DomesticView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomesticView.m; sourceTree = "<group>"; };
+		57B4B6611C4F470F00D3A226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		579437A11C38790E00119137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B4B6571C4F470F00D3A226 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				579437A61C38790E00119137 /* Tatami */,
+				57B4B65C1C4F470F00D3A226 /* Domestic */,
 				579437A51C38790E00119137 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				579437A41C38790E00119137 /* Domestic Moire.app */,
+				57B4B65B1C4F470F00D3A226 /* Domestic.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +94,28 @@
 			path = Tatami;
 			sourceTree = "<group>";
 		};
+		57B4B65C1C4F470F00D3A226 /* Domestic */ = {
+			isa = PBXGroup;
+			children = (
+				57B4B65D1C4F470F00D3A226 /* DomesticView.h */,
+				57B4B65F1C4F470F00D3A226 /* DomesticView.m */,
+				57B4B6611C4F470F00D3A226 /* Info.plist */,
+			);
+			path = Domestic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57B4B6581C4F470F00D3A226 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B4B65E1C4F470F00D3A226 /* DomesticView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		579437A31C38790E00119137 /* Domestic Moire */ = {
@@ -99,6 +135,24 @@
 			productReference = 579437A41C38790E00119137 /* Domestic Moire.app */;
 			productType = "com.apple.product-type.application";
 		};
+		57B4B65A1C4F470F00D3A226 /* Domestic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B4B6641C4F470F00D3A226 /* Build configuration list for PBXNativeTarget "Domestic" */;
+			buildPhases = (
+				57B4B6561C4F470F00D3A226 /* Sources */,
+				57B4B6571C4F470F00D3A226 /* Frameworks */,
+				57B4B6581C4F470F00D3A226 /* Headers */,
+				57B4B6591C4F470F00D3A226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Domestic;
+			productName = Domestic;
+			productReference = 57B4B65B1C4F470F00D3A226 /* Domestic.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +164,9 @@
 				ORGANIZATIONNAME = "Devine Lu Linvega";
 				TargetAttributes = {
 					579437A31C38790E00119137 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					57B4B65A1C4F470F00D3A226 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -128,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				579437A31C38790E00119137 /* Domestic Moire */,
+				57B4B65A1C4F470F00D3A226 /* Domestic */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +205,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57B4B6591C4F470F00D3A226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -157,6 +222,14 @@
 				579437B91C387DBD00119137 /* Tile.swift in Sources */,
 				579437AA1C38790E00119137 /* GameScene.swift in Sources */,
 				579437A81C38790E00119137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B4B6561C4F470F00D3A226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B4B6601C4F470F00D3A226 /* DomesticView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +351,31 @@
 			};
 			name = Release;
 		};
+		57B4B6621C4F470F00D3A226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = Domestic/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.Domestic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		57B4B6631C4F470F00D3A226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Domestic/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.Domestic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -298,6 +396,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		57B4B6641C4F470F00D3A226 /* Build configuration list for PBXNativeTarget "Domestic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B4B6621C4F470F00D3A226 /* Debug */,
+				57B4B6631C4F470F00D3A226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,6 +4,7 @@
 
 var game:SKScene!
 var rings:Int = 30
+var mainView:SKView!
 
 import Cocoa
 import SpriteKit
@@ -20,10 +21,15 @@ class AppDelegate: NSObject, NSApplicationDelegate
 		game = GameScene(fileNamed:"GameScene")
 		game.scaleMode = .AspectFit
 		game.backgroundColor = SKColor.blackColor()
+		mainView = self.skView
 		self.skView!.presentScene(game)
 		self.skView!.ignoresSiblingOrder = true
 		self.skView!.showsFPS = false
 		self.skView!.showsNodeCount = false
+		
+		window.collectionBehavior = .FullScreenPrimary
+		
+		skView.enterFullScreenMode(NSScreen.mainScreen()!, withOptions: nil)
     }
 	
     func applicationShouldTerminateAfterLastWindowClosed(sender: NSApplication) -> Bool

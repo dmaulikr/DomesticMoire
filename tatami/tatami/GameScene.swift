@@ -19,6 +19,12 @@ class GameScene: SKScene
 		}
     }
 	
+	override func mouseDown(theEvent: NSEvent)
+	{
+		mainView.exitFullScreenModeWithOptions(nil)
+		NSApp.terminate(self)
+	}
+	
     override func update(currentTime: CFTimeInterval)
 	{
 		for tile in container.children {
