@@ -19,6 +19,10 @@
 		57A593551C38CC2300DA28E3 /* logo.xxiivv.white.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */; };
 		57B4B65E1C4F470F00D3A226 /* DomesticView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B4B65D1C4F470F00D3A226 /* DomesticView.h */; };
 		57B4B6601C4F470F00D3A226 /* DomesticView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B4B65F1C4F470F00D3A226 /* DomesticView.m */; };
+		7DAAB92D1C50B6BA0007F9FA /* logo.xxiivv.white.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A593541C38CC2300DA28E3 /* logo.xxiivv.white.png */; };
+		7DAAB9311C50B6FD0007F9FA /* ScreenSaverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAAB92E1C50B6FD0007F9FA /* ScreenSaverScene.swift */; };
+		7DAAB9321C50B6FD0007F9FA /* ScreenSaverSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAAB92F1C50B6FD0007F9FA /* ScreenSaverSKView.swift */; };
+		7DAAB9331C50B6FD0007F9FA /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAAB9301C50B6FD0007F9FA /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,9 @@
 		57B4B65D1C4F470F00D3A226 /* DomesticView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DomesticView.h; sourceTree = "<group>"; };
 		57B4B65F1C4F470F00D3A226 /* DomesticView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomesticView.m; sourceTree = "<group>"; };
 		57B4B6611C4F470F00D3A226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DAAB92E1C50B6FD0007F9FA /* ScreenSaverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSaverScene.swift; sourceTree = "<group>"; };
+		7DAAB92F1C50B6FD0007F9FA /* ScreenSaverSKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSaverSKView.swift; sourceTree = "<group>"; };
+		7DAAB9301C50B6FD0007F9FA /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +106,9 @@
 			children = (
 				57B4B65D1C4F470F00D3A226 /* DomesticView.h */,
 				57B4B65F1C4F470F00D3A226 /* DomesticView.m */,
+				7DAAB92E1C50B6FD0007F9FA /* ScreenSaverScene.swift */,
+				7DAAB92F1C50B6FD0007F9FA /* ScreenSaverSKView.swift */,
+				7DAAB9301C50B6FD0007F9FA /* Tile.swift */,
 				57B4B6611C4F470F00D3A226 /* Info.plist */,
 			);
 			path = Domestic;
@@ -209,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DAAB92D1C50B6BA0007F9FA /* logo.xxiivv.white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DAAB9311C50B6FD0007F9FA /* ScreenSaverScene.swift in Sources */,
+				7DAAB9321C50B6FD0007F9FA /* ScreenSaverSKView.swift in Sources */,
 				57B4B6601C4F470F00D3A226 /* DomesticView.m in Sources */,
+				7DAAB9331C50B6FD0007F9FA /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +370,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Domestic/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.Domestic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
@@ -368,8 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Domestic/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxiivv.Domestic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
@@ -404,6 +422,7 @@
 				57B4B6631C4F470F00D3A226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
