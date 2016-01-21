@@ -7,7 +7,12 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "Domestic-Swift.h"
+@import SpriteKit;
 
 @interface DomesticView : ScreenSaverView
+
+@property (strong) ScreenSaverSKView * spriteView;
+@property (strong) ScreenSaverScene * spriteScene;
 
 @end
