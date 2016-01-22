@@ -36,19 +36,13 @@ public class ScreenSaverScene: SKScene
             let texture = SKTexture(image: image)
             let node = SKSpriteNode(texture: texture)
             self.image = node
-            self.addChild(node)
-            node.size.width = node.size.width / 2
-            node.size.height = node.size.height / 2
-            node.position = CGPoint(x: (node.size.width / 2) + 20,
-                y:  (node.size.height / 2) + 20)
+			self.addChild(node)
+			node.size.width = node.size.width / 2
+			node.size.height = node.size.height / 2
+			node.position = CGPoint(x: (node.size.width / 2) + 20,
+				y:  (node.size.height / 2) + 20)
         }
     }
-	
-//	override func mouseDown(theEvent: NSEvent)
-//	{
-//		mainView.exitFullScreenModeWithOptions(nil)
-//		NSApp.terminate(self)
-//	}
 	
     public override func update(currentTime: CFTimeInterval)
 	{
@@ -63,8 +57,7 @@ public class ScreenSaverScene: SKScene
             image.alpha = sin(CGFloat(currentTime * M_PI / 60.0))
         }
     }
-    
-    
+	
     // In the screensave environment getting an image is harder than it should be.
     func getImage(name: String) -> NSImage?
     {
@@ -78,7 +71,6 @@ public class ScreenSaverScene: SKScene
         {
             return NSImage(contentsOfFile: path)
         }
-        
         return nil
     }
 }
